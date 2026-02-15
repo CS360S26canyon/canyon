@@ -1,0 +1,36 @@
+# → Local configuration (SDK path, keystores)
+/local.properties
+*.keystore
+*.jks
+
+# → Gradle caches
+.gradle/
+
+# → Build output (ignore all build folders)
+/build/
+**/build/
+
+# → Android Studio / IntelliJ IDE files
+*.iml
+.idea/
+
+# → Android build artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# → NDK/CMake build folders
+.externalNativeBuild/
+.cxx/
+
+# → OS/Temp files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.tmp
+
+# → Misc
+captures/
